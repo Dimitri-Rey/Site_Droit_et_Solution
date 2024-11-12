@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> <!-- Déclaration de l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive : adapte la page à la taille de l'écran -->
+    <title>Connexion - Droit et Solutions</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+    <link rel="icon" href="Image/favicon.png" type="image/png"> <!-- Favicon de la page -->
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de style CSS -->
+</head>
+<body>
+    <!-- Conteneur principal pour centrer le formulaire de connexion -->
+    <div class="page-container">
+        <div class="login-container">
+            <!-- Logo centré en haut de la boîte de connexion -->
+            <div class="logo-container">
+                <img src="Image/logo.png" alt="Logo Droit et Solutions" class="logo"> <!-- Image du logo de l'entreprise -->
+            </div>
+            <h1>Connexion</h1> <!-- Titre du formulaire de connexion -->
+            <form>
+                <!-- Champ pour l'adresse e-mail -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required> <!-- Champ de saisie avec validation email -->
+                
+                <!-- Champ pour le mot de passe -->
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required> <!-- Champ de saisie pour le mot de passe -->
+
+                <!-- Bouton de soumission du formulaire de connexion -->
+                <button type="submit">Connexion</button>
+                
+                <!-- Lien vers la page d'inscription pour les utilisateurs sans compte -->
+                <p>Pas de compte ? <a href="signup.html">Inscription</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pied de page contenant des informations sur l'entreprise et des liens utiles -->
+    <footer>
+        <div class="footer-container">
+            <!-- Section du logo et de la description de l'entreprise -->
+            <div class="footer-section">
+                <img src="Image/favicon.png" alt="Logo Droit et Solutions" class="footer-logo"> <!-- Logo de l'entreprise dans le pied de page -->
+                <p>
+                    Droit et Solutions est une entreprise dédiée à offrir des services juridiques professionnels et accessibles. Nous croyons en la transparence et en la fiabilité pour accompagner nos clients dans leurs démarches légales.
+                </p>
+            </div>
+
+            <!-- Section des informations de contact -->
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Adresse : 123 Avenue du Droit, 75000 Paris, France</p> <!-- Adresse de l'entreprise -->
+                <p>Téléphone : +33 1 23 45 67 89</p> <!-- Numéro de téléphone -->
+                <p>Email : contact@droitetolutions.com</p> <!-- Adresse email de contact -->
+            </div>
+
+            <!-- Section des liens rapides vers d'autres pages du site -->
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#">À propos</a></li> <!-- Lien vers la page "À propos" -->
+                    <li><a href="#">Nos services</a></li> <!-- Lien vers la page des services -->
+                    <li><a href="#">Blog</a></li> <!-- Lien vers le blog de l'entreprise -->
+                    <li><a href="#">Contact</a></li> <!-- Lien vers la page de contact -->
+                </ul>
+            </div>
+
+            <!-- Section des liens légaux (mentions légales, politique de confidentialité, etc.) -->
+            <div class="footer-section">
+                <h3>Légal</h3>
+                <ul>
+                    <li><a href="#">Politique de Confidentialité</a></li> <!-- Lien vers la politique de confidentialité -->
+                    <li><a href="#">Conditions d'utilisation</a></li> <!-- Lien vers les conditions d'utilisation -->
+                    <li><a href="#">Mentions légales</a></li> <!-- Lien vers les mentions légales -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Texte de bas de page avec copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Droit et Solutions. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
